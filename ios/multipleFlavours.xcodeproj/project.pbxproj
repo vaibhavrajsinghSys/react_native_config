@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-multipleFlavours.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-multipleFlavours.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		48A223F25D4C9AE03850E69D /* libPods-multipleFlavoursCommonPods-multipleFlavours prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 367009415619144695448C5E /* libPods-multipleFlavoursCommonPods-multipleFlavours prod.a */; };
+		72CC37AAA60A892F7B63DA55 /* libPods-multipleFlavoursCommonPods-multipleFlavours staging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B809DF2A2E910A7956FAA02 /* libPods-multipleFlavoursCommonPods-multipleFlavours staging.a */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		882986CF1719FBC1E927100B /* libPods-multipleFlavoursCommonPods-multipleFlavours dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B41063FF8E0191283D744D05 /* libPods-multipleFlavoursCommonPods-multipleFlavours dev.a */; };
 		9185B379C002EA6994D93FE1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		F3447FC72E7ADC9500F69674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		F3447FCB2E7ADC9500F69674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F3447FCC2E7ADC9500F69674 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F3447FCD2E7ADC9500F69674 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		F3447FD92E7ADC9C00F69674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		F3447FDD2E7ADC9C00F69674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F3447FDE2E7ADC9C00F69674 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F3447FDF2E7ADC9C00F69674 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		F3447FEB2E7ADC9E00F69674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		F3447FEF2E7ADC9E00F69674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F3447FF02E7ADC9E00F69674 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F3447FF12E7ADC9E00F69674 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,12 +33,25 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = multipleFlavours/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = multipleFlavours/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = multipleFlavours/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-multipleFlavours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipleFlavours.debug.xcconfig"; path = "Target Support Files/Pods-multipleFlavours/Pods-multipleFlavours.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-multipleFlavours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipleFlavours.release.xcconfig"; path = "Target Support Files/Pods-multipleFlavours/Pods-multipleFlavours.release.xcconfig"; sourceTree = "<group>"; };
+		1B809DF2A2E910A7956FAA02 /* libPods-multipleFlavoursCommonPods-multipleFlavours staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multipleFlavoursCommonPods-multipleFlavours staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25403A40FF8A4DF430CA342B /* Pods-multipleFlavoursCommonPods-multipleFlavours staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipleFlavoursCommonPods-multipleFlavours staging.debug.xcconfig"; path = "Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours staging/Pods-multipleFlavoursCommonPods-multipleFlavours staging.debug.xcconfig"; sourceTree = "<group>"; };
+		277AC3F16AF391F5B14E95BD /* Pods-multipleFlavoursCommonPods-multipleFlavours dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipleFlavoursCommonPods-multipleFlavours dev.release.xcconfig"; path = "Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours dev/Pods-multipleFlavoursCommonPods-multipleFlavours dev.release.xcconfig"; sourceTree = "<group>"; };
+		367009415619144695448C5E /* libPods-multipleFlavoursCommonPods-multipleFlavours prod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multipleFlavoursCommonPods-multipleFlavours prod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5862ECA9F39000C074FB982B /* Pods-multipleFlavoursCommonPods-multipleFlavours staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipleFlavoursCommonPods-multipleFlavours staging.release.xcconfig"; path = "Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours staging/Pods-multipleFlavoursCommonPods-multipleFlavours staging.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-multipleFlavours.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multipleFlavours.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = multipleFlavours/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = multipleFlavours/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C879B44B0D7335CA38ED5AB /* Pods-multipleFlavoursCommonPods-multipleFlavours prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipleFlavoursCommonPods-multipleFlavours prod.release.xcconfig"; path = "Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours prod/Pods-multipleFlavoursCommonPods-multipleFlavours prod.release.xcconfig"; sourceTree = "<group>"; };
+		A718AD18D24500094DC1D221 /* Pods-multipleFlavoursCommonPods-multipleFlavours dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipleFlavoursCommonPods-multipleFlavours dev.debug.xcconfig"; path = "Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours dev/Pods-multipleFlavoursCommonPods-multipleFlavours dev.debug.xcconfig"; sourceTree = "<group>"; };
+		B41063FF8E0191283D744D05 /* libPods-multipleFlavoursCommonPods-multipleFlavours dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multipleFlavoursCommonPods-multipleFlavours dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F3447FD42E7ADC9500F69674 /* multipleFlavours dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multipleFlavours dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3447FD52E7ADC9500F69674 /* multipleFlavours dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "multipleFlavours dev-Info.plist"; path = "/Users/macbook-2m1/Desktop/Demo_projects/react_native/multipleFlavours/ios/multipleFlavours dev-Info.plist"; sourceTree = "<absolute>"; };
+		F3447FE62E7ADC9C00F69674 /* multipleFlavours staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multipleFlavours staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3447FE72E7ADC9C00F69674 /* multipleFlavours staging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "multipleFlavours staging-Info.plist"; path = "/Users/macbook-2m1/Desktop/Demo_projects/react_native/multipleFlavours/ios/multipleFlavours staging-Info.plist"; sourceTree = "<absolute>"; };
+		F3447FF82E7ADC9E00F69674 /* multipleFlavours prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multipleFlavours prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3447FF92E7ADC9E00F69674 /* multipleFlavours prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "multipleFlavours prod-Info.plist"; path = "/Users/macbook-2m1/Desktop/Demo_projects/react_native/multipleFlavours/ios/multipleFlavours prod-Info.plist"; sourceTree = "<absolute>"; };
+		FCBF3691000DF911F6F8378B /* Pods-multipleFlavoursCommonPods-multipleFlavours prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipleFlavoursCommonPods-multipleFlavours prod.debug.xcconfig"; path = "Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours prod/Pods-multipleFlavoursCommonPods-multipleFlavours prod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-multipleFlavours.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3447FC82E7ADC9500F69674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882986CF1719FBC1E927100B /* libPods-multipleFlavoursCommonPods-multipleFlavours dev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3447FDA2E7ADC9C00F69674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CC37AAA60A892F7B63DA55 /* libPods-multipleFlavoursCommonPods-multipleFlavours staging.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3447FEC2E7ADC9E00F69674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A223F25D4C9AE03850E69D /* libPods-multipleFlavoursCommonPods-multipleFlavours prod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +106,9 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-multipleFlavours.a */,
+				B41063FF8E0191283D744D05 /* libPods-multipleFlavoursCommonPods-multipleFlavours dev.a */,
+				367009415619144695448C5E /* libPods-multipleFlavoursCommonPods-multipleFlavours prod.a */,
+				1B809DF2A2E910A7956FAA02 /* libPods-multipleFlavoursCommonPods-multipleFlavours staging.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,6 +128,9 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F3447FD52E7ADC9500F69674 /* multipleFlavours dev-Info.plist */,
+				F3447FE72E7ADC9C00F69674 /* multipleFlavours staging-Info.plist */,
+				F3447FF92E7ADC9E00F69674 /* multipleFlavours prod-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -85,6 +141,9 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* multipleFlavours.app */,
+				F3447FD42E7ADC9500F69674 /* multipleFlavours dev.app */,
+				F3447FE62E7ADC9C00F69674 /* multipleFlavours staging.app */,
+				F3447FF82E7ADC9E00F69674 /* multipleFlavours prod.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,8 +151,12 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-multipleFlavours.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-multipleFlavours.release.xcconfig */,
+				A718AD18D24500094DC1D221 /* Pods-multipleFlavoursCommonPods-multipleFlavours dev.debug.xcconfig */,
+				277AC3F16AF391F5B14E95BD /* Pods-multipleFlavoursCommonPods-multipleFlavours dev.release.xcconfig */,
+				FCBF3691000DF911F6F8378B /* Pods-multipleFlavoursCommonPods-multipleFlavours prod.debug.xcconfig */,
+				8C879B44B0D7335CA38ED5AB /* Pods-multipleFlavoursCommonPods-multipleFlavours prod.release.xcconfig */,
+				25403A40FF8A4DF430CA342B /* Pods-multipleFlavoursCommonPods-multipleFlavours staging.debug.xcconfig */,
+				5862ECA9F39000C074FB982B /* Pods-multipleFlavoursCommonPods-multipleFlavours staging.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,13 +168,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "multipleFlavours" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,6 +180,69 @@
 			name = multipleFlavours;
 			productName = multipleFlavours;
 			productReference = 13B07F961A680F5B00A75B9A /* multipleFlavours.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3447FC42E7ADC9500F69674 /* multipleFlavours dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3447FD12E7ADC9500F69674 /* Build configuration list for PBXNativeTarget "multipleFlavours dev" */;
+			buildPhases = (
+				521156A8C9F89DE6E7F2D875 /* [CP] Check Pods Manifest.lock */,
+				F3447FC62E7ADC9500F69674 /* Sources */,
+				F3447FC82E7ADC9500F69674 /* Frameworks */,
+				F3447FCA2E7ADC9500F69674 /* Resources */,
+				F3447FCE2E7ADC9500F69674 /* Bundle React Native code and images */,
+				C71C1456A3D4FDFEE151ECEE /* [CP] Embed Pods Frameworks */,
+				D54367A887FB8778EC40A8F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multipleFlavours dev";
+			productName = multipleFlavours;
+			productReference = F3447FD42E7ADC9500F69674 /* multipleFlavours dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3447FD62E7ADC9C00F69674 /* multipleFlavours staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3447FE32E7ADC9C00F69674 /* Build configuration list for PBXNativeTarget "multipleFlavours staging" */;
+			buildPhases = (
+				32C49C0581D073C66BEED915 /* [CP] Check Pods Manifest.lock */,
+				F3447FD82E7ADC9C00F69674 /* Sources */,
+				F3447FDA2E7ADC9C00F69674 /* Frameworks */,
+				F3447FDC2E7ADC9C00F69674 /* Resources */,
+				F3447FE02E7ADC9C00F69674 /* Bundle React Native code and images */,
+				E065FC3A1C61C4A1D94FDEDF /* [CP] Embed Pods Frameworks */,
+				5F812420E2825B2916CD1AB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multipleFlavours staging";
+			productName = multipleFlavours;
+			productReference = F3447FE62E7ADC9C00F69674 /* multipleFlavours staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3447FE82E7ADC9E00F69674 /* multipleFlavours prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3447FF52E7ADC9E00F69674 /* Build configuration list for PBXNativeTarget "multipleFlavours prod" */;
+			buildPhases = (
+				7BEC76B22767389E74F8ECB6 /* [CP] Check Pods Manifest.lock */,
+				F3447FEA2E7ADC9E00F69674 /* Sources */,
+				F3447FEC2E7ADC9E00F69674 /* Frameworks */,
+				F3447FEE2E7ADC9E00F69674 /* Resources */,
+				F3447FF22E7ADC9E00F69674 /* Bundle React Native code and images */,
+				88673A14A15F98EB4BA722F2 /* [CP] Embed Pods Frameworks */,
+				EEE1A6079E3A3011655333E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multipleFlavours prod";
+			productName = multipleFlavours;
+			productReference = F3447FF82E7ADC9E00F69674 /* multipleFlavours prod.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,6 +272,9 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* multipleFlavours */,
+				F3447FC42E7ADC9500F69674 /* multipleFlavours dev */,
+				F3447FD62E7ADC9C00F69674 /* multipleFlavours staging */,
+				F3447FE82E7ADC9E00F69674 /* multipleFlavours prod */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +287,36 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9185B379C002EA6994D93FE1 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3447FCA2E7ADC9500F69674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3447FCB2E7ADC9500F69674 /* LaunchScreen.storyboard in Resources */,
+				F3447FCC2E7ADC9500F69674 /* Images.xcassets in Resources */,
+				F3447FCD2E7ADC9500F69674 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3447FDC2E7ADC9C00F69674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3447FDD2E7ADC9C00F69674 /* LaunchScreen.storyboard in Resources */,
+				F3447FDE2E7ADC9C00F69674 /* Images.xcassets in Resources */,
+				F3447FDF2E7ADC9C00F69674 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3447FEE2E7ADC9E00F69674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3447FEF2E7ADC9E00F69674 /* LaunchScreen.storyboard in Resources */,
+				F3447FF02E7ADC9E00F69674 /* Images.xcassets in Resources */,
+				F3447FF12E7ADC9E00F69674 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,24 +339,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavours/Pods-multipleFlavours-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavours/Pods-multipleFlavours-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multipleFlavours/Pods-multipleFlavours-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		32C49C0581D073C66BEED915 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,29 +354,206 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-multipleFlavours-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-multipleFlavoursCommonPods-multipleFlavours staging-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		521156A8C9F89DE6E7F2D875 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavours/Pods-multipleFlavours-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavours/Pods-multipleFlavours-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-multipleFlavoursCommonPods-multipleFlavours dev-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multipleFlavours/Pods-multipleFlavours-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		5F812420E2825B2916CD1AB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours staging/Pods-multipleFlavoursCommonPods-multipleFlavours staging-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours staging/Pods-multipleFlavoursCommonPods-multipleFlavours staging-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours staging/Pods-multipleFlavoursCommonPods-multipleFlavours staging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BEC76B22767389E74F8ECB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-multipleFlavoursCommonPods-multipleFlavours prod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88673A14A15F98EB4BA722F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours prod/Pods-multipleFlavoursCommonPods-multipleFlavours prod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours prod/Pods-multipleFlavoursCommonPods-multipleFlavours prod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours prod/Pods-multipleFlavoursCommonPods-multipleFlavours prod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71C1456A3D4FDFEE151ECEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours dev/Pods-multipleFlavoursCommonPods-multipleFlavours dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours dev/Pods-multipleFlavoursCommonPods-multipleFlavours dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours dev/Pods-multipleFlavoursCommonPods-multipleFlavours dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54367A887FB8778EC40A8F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours dev/Pods-multipleFlavoursCommonPods-multipleFlavours dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours dev/Pods-multipleFlavoursCommonPods-multipleFlavours dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours dev/Pods-multipleFlavoursCommonPods-multipleFlavours dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E065FC3A1C61C4A1D94FDEDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours staging/Pods-multipleFlavoursCommonPods-multipleFlavours staging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours staging/Pods-multipleFlavoursCommonPods-multipleFlavours staging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours staging/Pods-multipleFlavoursCommonPods-multipleFlavours staging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE1A6079E3A3011655333E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours prod/Pods-multipleFlavoursCommonPods-multipleFlavours prod-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours prod/Pods-multipleFlavoursCommonPods-multipleFlavours prod-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multipleFlavoursCommonPods-multipleFlavours prod/Pods-multipleFlavoursCommonPods-multipleFlavours prod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3447FCE2E7ADC9500F69674 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		F3447FE02E7ADC9C00F69674 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		F3447FF22E7ADC9E00F69674 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -250,12 +566,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3447FC62E7ADC9500F69674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3447FC72E7ADC9500F69674 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3447FD82E7ADC9C00F69674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3447FD92E7ADC9C00F69674 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3447FEA2E7ADC9E00F69674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3447FEB2E7ADC9E00F69674 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-multipleFlavours.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -283,7 +622,6 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-multipleFlavours.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -451,6 +789,168 @@
 			};
 			name = Release;
 		};
+		F3447FD22E7ADC9500F69674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A718AD18D24500094DC1D221 /* Pods-multipleFlavoursCommonPods-multipleFlavours dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "multipleFlavours dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		F3447FD32E7ADC9500F69674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277AC3F16AF391F5B14E95BD /* Pods-multipleFlavoursCommonPods-multipleFlavours dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "multipleFlavours dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		F3447FE42E7ADC9C00F69674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25403A40FF8A4DF430CA342B /* Pods-multipleFlavoursCommonPods-multipleFlavours staging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "multipleFlavours staging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		F3447FE52E7ADC9C00F69674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5862ECA9F39000C074FB982B /* Pods-multipleFlavoursCommonPods-multipleFlavours staging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "multipleFlavours staging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		F3447FF62E7ADC9E00F69674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBF3691000DF911F6F8378B /* Pods-multipleFlavoursCommonPods-multipleFlavours prod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "multipleFlavours prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		F3447FF72E7ADC9E00F69674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C879B44B0D7335CA38ED5AB /* Pods-multipleFlavoursCommonPods-multipleFlavours prod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "multipleFlavours prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,6 +968,33 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3447FD12E7ADC9500F69674 /* Build configuration list for PBXNativeTarget "multipleFlavours dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3447FD22E7ADC9500F69674 /* Debug */,
+				F3447FD32E7ADC9500F69674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3447FE32E7ADC9C00F69674 /* Build configuration list for PBXNativeTarget "multipleFlavours staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3447FE42E7ADC9C00F69674 /* Debug */,
+				F3447FE52E7ADC9C00F69674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3447FF52E7ADC9E00F69674 /* Build configuration list for PBXNativeTarget "multipleFlavours prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3447FF62E7ADC9E00F69674 /* Debug */,
+				F3447FF72E7ADC9E00F69674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

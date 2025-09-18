@@ -4,15 +4,35 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios -i",
+    "ios:podsInstall": "react-native run-ios --only-pods",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "android:staging": "react-native run-android --mode=stagingdebug --appId multipleflavours.staging --appIdSuffix staging",
+    "android:staging-release": "react-native run-android --mode=stagingrelease --appId multipleflavours.staging --appIdSuffix staging",
+    "android:dev": "react-native run-android --mode=developmentdebug --appId multipleflavours.development --appIdSuffix dev",
+    "android:dev-release": "react-native run-android --mode=developmentrelease --appId multipleflavours.development --appIdSuffix dev",
+    "android:prod": "react-native run-android --mode=productiondebug --appId multipleflavours.production --appIdSuffix prod",
+    "android:prod-release": "react-native run-android --mode=productionrelease --appId multipleflavours.production --appIdSuffix prod",
+    "ba": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "ra": "rm -rf android/app/src/main/res/drawable-hdpi &&  rm -rf android/app/src/main/res/drawable-mdpi &&  rm -rf android/app/src/main/res/drawable-xhdpi && rm -rf android/app/src/main/res/drawable-xxhdpi && rm -rf android/app/src/main/res/drawable-xxxhdpi && rm -rf android/app/src/main/res/raw && npx jetify",
+    "androidProductionReleaseBundle": "yarn autoclean && cd android && ./gradlew bundleProductionRelease && killall -9 java && open ./android/app/build/outputs/bundle/production/release",
+    "androidDevelopmentDebugAPK": "yarn autoclean && cd android && ./gradlew assembleDevelopmentDebug && killall -9 java && open ./android/app/build/outputs/apk/development/debug",
+    "androidDevelopmentReleaseAPK": "yarn clean && cd android && ./gradlew assembleDevelopmentRelease && killall -9 java && open ./android/app/build/outputs/apk/development/release",
+    "androidProductionDebugAPK": "yarn clean && cd android && ./gradlew assembleProductionDebug && killall -9 java && open ./android/app/build/outputs/apk/production/debug",
+    "androidProductionReleaseAPK": "yarn clean && cd android && ./gradlew assembleProductionRelease && killall -9 java && open ./android/app/build/outputs/apk/production/release",
+    "androidStagingDebugAPK": "yarn clean && cd android && ./gradlew assembleStagingDebug && killall -9 java && open ./android/app/build/outputs/apk/staging/debug",
+    "androidStagingReleaseAPK": "yarn clean && cd android && ./gradlew assembleStagingRelease && killall -9 java && open ./android/app/build/outputs/apk/staging/release",
+    "ios:dev": "cd ios && pod install && cd .. && react-native run-ios --scheme \"multipleFlavours dev\"",
+    "ios:staging": "cd ios && pod install && cd .. && react-native run-ios --scheme \"multipleFlavours staging\"",
+    "ios:prod": "cd ios && pod install && cd .. && react-native run-ios --scheme \"multipleFlavours prod\""
   },
   "dependencies": {
+    "@react-native/new-app-screen": "0.81.1",
     "react": "19.1.0",
     "react-native": "0.81.1",
-    "@react-native/new-app-screen": "0.81.1",
+    "react-native-config": "^1.5.9",
     "react-native-safe-area-context": "^5.5.2"
   },
   "devDependencies": {

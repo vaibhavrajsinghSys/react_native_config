@@ -5,12 +5,20 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import {
+  StatusBar,
+  StyleSheet,
+  useColorScheme,
+  View,
+  Text,
+} from 'react-native';
 import {
   SafeAreaProvider,
-  useSafeAreaInsets,
+  // useSafeAreaInsets,
 } from 'react-native-safe-area-context';
+
+// config import.
+import Config from 'react-native-config';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -24,14 +32,11 @@ function App() {
 }
 
 function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
+  // const safeAreaInsets = useSafeAreaInsets();
 
   return (
     <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
+      <Text>{Config.ENV}</Text>
     </View>
   );
 }
@@ -39,6 +44,9 @@ function AppContent() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 

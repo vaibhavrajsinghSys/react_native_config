@@ -91,19 +91,22 @@ android {
     flavorDimensions "default"
     productFlavors {
         production {
-            applicationId "multipleflavours.production"
-            applicationIdSuffix "prod"
-            resValue "string", "build_config_package", "com.multipleflavours"
+            // applicationId "multipleflavours.production"
+            // applicationId "com.multipleflavours"
+            // applicationIdSuffix "prod"
+            // resValue "string", "build_config_package", "com.multipleflavours"
         }
         staging {
-            applicationId "multipleflavours.staging"
-            applicationIdSuffix "staging"
-            resValue "string", "build_config_package", "com.multipleflavours"
+            // applicationId "com.multipleflavours"
+            // applicationId "multipleflavours.staging"
+            // applicationIdSuffix "staging"
+            // resValue "string", "build_config_package", "com.multipleflavours"
         }
         development {
-            applicationId "multipleflavours.development"
-            applicationIdSuffix "dev"
-            resValue "string", "build_config_package", "com.multipleflavours"
+            // applicationId "multipleflavours.development"
+            // applicationId "com.multipleflavours"
+            // applicationIdSuffix "dev"
+            // resValue "string", "build_config_package", "com.multipleflavours"
 
         }
     }
